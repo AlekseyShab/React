@@ -1,8 +1,7 @@
 import React from "react";
 import nav from './nav.module.css';
 
-class Nav extends React.Component {
-    render(){
+const Nav = () => {
         return(
             <nav className={nav.nav}>
                 <div><a className={nav.item} href="#">Profile</a></div>
@@ -12,6 +11,5 @@ class Nav extends React.Component {
                 <div><a className={nav.item} href="#">Settings</a></div>
             </nav>
         );
-    }
 }
 export default Nav;

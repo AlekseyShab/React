@@ -3,18 +3,20 @@ import './App.css'
 import Header from "./components/Header/header";
 import Nav from "./components/Nav/nav";
 import Profile from "./components/Profile/profile";
+import Dialogs from "./components/Dialogs/dialogs";
 
 
-class App extends React.Component {
-    render() {
+const App = () => {
         return (
             <div className='app-wrapper'>
-                <Header />
-                <Nav />
-                <Profile />
+                <Header/>
+                <Nav/>
+                {/*<Profile />*/}
+                <div className='app-wrapper-content'>
+                    <Dialogs/>
+                </div>
             </div>
         );
-    }
-}
+};
 
 export default App;
