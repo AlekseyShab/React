@@ -1,11 +1,7 @@
 .nav{
     grid-area: n;
     background: blue;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
+    padding: 20px;
 }
 .item{
     color:white;
@@ -14,4 +10,7 @@
 .item:hover{
     color:deepskyblue;
 
+}
+.item.active{
+    color: gold;
 }

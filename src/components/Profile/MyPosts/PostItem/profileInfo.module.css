@@ -14,3 +14,7 @@
 .item img:hover{
     transform: scale(1.1);
 }
+.text{
+    font-family: "Courier New";
+    font-style: italic;
+}
